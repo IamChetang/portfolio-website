@@ -1,10 +1,8 @@
 import React from "react";
 import "./Navbar.scss";
-import { useNavigate, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const navigate = useNavigate();
-
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-light">
