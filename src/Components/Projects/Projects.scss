@@ -1,0 +1,37 @@
+.container-fluid {
+  .inner_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    .card_container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      width: 100%;
+      height: 100%;
+      .card {
+        width: 30%;
+        height: 24rem;
+        -webkit-box-shadow: 2px 7px 19px 0px #000000;
+        box-shadow: 2px 7px 19px 0px #000000;
+        .img_container {
+          width: 100%;
+          height: 18rem;
+          .card_img {
+            width: 100%;
+            object-fit: cover;
+          }
+        }
+        .card_para {
+          padding: 1rem;
+        }
+      }
+    }
+  }
+}
