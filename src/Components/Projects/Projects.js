@@ -1,12 +1,13 @@
 import React from "react";
 import "./Projects.scss";
 import animated_gif from "../../resources/animated_efeed_website.gif";
-
+import Navbar from "../Navbar/Navbar";
 import efeed_website from "../../resources/efeed.website.gif";
 
 export const Projects = () => {
   return (
     <>
+      <Navbar />
       <div className="container-fluid bg-light">
         <div class="inner_container">
           <div className="card_container">

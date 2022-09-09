@@ -1,0 +1,25 @@
+:root {
+  --clr-primary: #219ebc;
+  --clr-secondary: #f37721;
+  --clr-darkGrey: #3b3b3e;
+  --clr-lightGrey: #7b7b80;
+  --clr-darkbackgrond: #fac898;
+  --clr-lightbackgrond: #f6f4ed;
+  /* Text-colors*/
+  --clr-darkTextColor: #000000;
+  --clr-midTextColor: #565659;
+  --clr-lightTextColor: #9e9ea6;
+
+  font-size: 18px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}

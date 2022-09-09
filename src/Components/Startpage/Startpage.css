@@ -1,0 +1,11 @@
+.container-fluid {
+  background-color: rgba(49, 46, 129);
+  width: 100%;
+  height: 100vh;
+  color: white;
+  flex-wrap: wrap;
+}
+.name {
+  font-size: 3rem;
+  font-weight: 800;
+}

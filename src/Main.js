@@ -1,6 +1,6 @@
 import React from "react";
-import "./Main.scss";
-import Startpage from "./Components/Startpage/Startpage";
+import "./Main.css";
+import Startpage from "./Components/Startpage/index";
 
 const Main = () => {
   return (
